@@ -1,9 +1,0 @@
-IP = (input("Enter Your IP Address : "))
-Role = input("Enter Your Role : ").strip().capitalize()
-
-if Role == "Admin":
-    print("Access Granted: Welcome to the Secure Network!")
-elif Role == "Guest":
-    print("Limintes Access: You can only view public pages.")
-else:
-    print("Access Denied: Unknown Role!")        
